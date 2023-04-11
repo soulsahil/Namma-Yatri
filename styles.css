@@ -1,0 +1,99 @@
+.cover{
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+}
+/* Navbar*/
+.nav-color{
+    background-color: #FFC300;
+    height: 150px;
+}
+.nav-font{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.nav-font img{
+    height: 50px;
+    width: 50px;
+}
+/*Enter Location*/
+.green{
+    height: 200px;
+    background-color: #38A34D;
+}
+.loc-sel{
+    height: 150px;
+    width: 600px;
+    background-color: #E3E5E4;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    display: flex;
+}
+.u_txt{
+    color: black;
+    position:absolute;
+    font-weight: bold;
+    top:15px;
+    left: 15px;
+    transform: translateY(-60%);
+    transition: 1s;
+    pointer-events: none;
+  }
+  .p_txt{
+    color: black;
+    font-weight: bold;
+    position:absolute;
+    top:10px;
+    left: 310px;
+    transform: translateY(-30%);
+    transition: 1s;
+    pointer-events: none;
+  }
+  .txt_box input{
+    margin-left: 10px;
+    height: 40px;
+    width:80%;
+    border: 1px solid grey;
+    outline: none;
+    margin-top:35px;
+  }
+  .txt_box input:hover{
+    border-bottom: 1px solid grey;
+  }
+  .path_maker{
+    position: absolute;
+    top: 35%;
+    left: 41.5%;
+    height: 1px;
+    width: 61px;
+    background-color:  grey;
+  }
+.space_maker{
+    width: 50%;
+}
+.search{
+    outline: black;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    height: 50px;
+    width: 150px;
+    border-left: 2px solid green;
+    border-bottom: 2px solid green;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 195, 0);
+    text-align: center;
+}
+.gcol{
+    color: green;
+}
+.rcol{
+    color: red;
+}
